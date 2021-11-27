@@ -1,0 +1,941 @@
+{
+  "id": "c469e952-f361-4324-952b-7f010be9afbf",
+  "version": "2.0",
+  "name": "PHPTravels Online Testing",
+  "url": "https://www.phptravels.net",
+  "tests": [{
+    "id": "6cdccf1b-0a52-4559-9efa-2342d48cf07b",
+    "name": "Filght Booking",
+    "commands": [{
+      "id": "07e103ad-9e2e-4908-b543-54a45bf9d8e8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4e99b06-1538-4877-887e-32e5e0a8b448",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42150083-cda1-4b3d-8b7a-2804e1e7bc1f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Signup",
+      "targets": [
+        ["linkText=Signup", "linkText"],
+        ["css=.theme-btn:nth-child(5)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Signup')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.phptravels.net/signup')])[3]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be1b7e35-b32f-45ff-b725-b8f22d43af2f",
+      "comment": "",
+      "command": "click",
+      "target": "name=first_name",
+      "targets": [
+        ["name=first_name", "name"],
+        ["css=.input-box:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='first_name']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6915d4de-801b-450c-a255-923654e679a4",
+      "comment": "",
+      "command": "type",
+      "target": "name=first_name",
+      "targets": [
+        ["name=first_name", "name"],
+        ["css=.input-box:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='first_name']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Sigit"
+    }, {
+      "id": "aee71fc9-623c-4cb6-92fa-5ee66dd4058c",
+      "comment": "",
+      "command": "click",
+      "target": "name=last_name",
+      "targets": [
+        ["name=last_name", "name"],
+        ["css=.input-box:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='last_name']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c69474e6-d624-4b51-924e-a73a863bcc8a",
+      "comment": "",
+      "command": "type",
+      "target": "name=last_name",
+      "targets": [
+        ["name=last_name", "name"],
+        ["css=.input-box:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='last_name']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Setiawan"
+    }, {
+      "id": "b3abc062-216e-46ab-a1be-5995dc13fe8d",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.input-box:nth-child(4) .form-control", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5289840-d90a-4847-ad34-5c88acb636d6",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.input-box:nth-child(4) .form-control", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "085866979593"
+    }, {
+      "id": "e03b6180-270b-4e28-9e64-b6de4315cbdf",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.input-box:nth-child(5) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d489b7b-bfd3-48aa-a7b8-7b938c8760d7",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.input-box:nth-child(5) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "example@mail.com"
+    }, {
+      "id": "7dbf34aa-e74a-4b29-8b30-3c9b97b692b5",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.input-box:nth-child(6) .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af57450b-158f-438c-9463-8a3a9f59e16d",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.input-box:nth-child(6) .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "76881c28-99cd-4790-9527-0fde3a517f01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-lg",
+      "targets": [
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[7]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Signup')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5fffd07-9809-46e0-a63f-6995f9bfb636",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.input-box:nth-child(1) .form-control:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a8a2cee-fe41-4b84-afec-e38a48c26cf4",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.input-box:nth-child(1) .form-control:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "example@mail.com"
+    }, {
+      "id": "a6f8ac86-b9ff-4321-8cd8-6a8894f25c44",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.mb-2 > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73a2e21c-cf6a-4063-b80d-ec3adfdc4699",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.mb-2 > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "d2c37b8b-2a36-4b9d-a014-c5894bafb486",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-lg",
+      "targets": [
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "edd260bb-d248-494f-8932-c99adac34082",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=nav > ul > li:nth-child(1) > .waves-effect", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.phptravels.net/')])[27]", "xpath:href"],
+        ["xpath=//nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdeb8d96-e38e-46a2-b45a-3481081f6e9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(2) .d-none",
+      "targets": [
+        ["css=.nav-item:nth-child(2) .d-none", "css:finder"],
+        ["xpath=(//button[@id='hotels-tab']/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87be6c39-fc5d-45f5-9f12-84456b9b645c",
+      "comment": "",
+      "command": "click",
+      "target": "id=autocomplete",
+      "targets": [
+        ["id=autocomplete", "id"],
+        ["name=from", "name"],
+        ["css=#autocomplete", "css:finder"],
+        ["xpath=//input[@id='autocomplete']", "xpath:attributes"],
+        ["xpath=//div[@id='onereturn']/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76a24c7b-7891-4ca7-996f-4236e34fded8",
+      "comment": "",
+      "command": "type",
+      "target": "id=autocomplete",
+      "targets": [
+        ["id=autocomplete", "id"],
+        ["name=from", "name"],
+        ["css=#autocomplete", "css:finder"],
+        ["xpath=//input[@id='autocomplete']", "xpath:attributes"],
+        ["xpath=//div[@id='onereturn']/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "jakar"
+    }, {
+      "id": "a20ff86d-471d-42ca-ab2c-72f3983465a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.autocomplete-result:nth-child(1) strong",
+      "targets": [
+        ["css=.autocomplete-result:nth-child(1) strong", "css:finder"],
+        ["xpath=//div[@id='onereturn']/div/div/div/div/div/div/div/div/div/strong", "xpath:idRelative"],
+        ["xpath=//div/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Soekarno Hatta Intl')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f19ce0c4-c3a7-4c7d-ac42-fb58f4781070",
+      "comment": "",
+      "command": "click",
+      "target": "id=autocomplete2",
+      "targets": [
+        ["id=autocomplete2", "id"],
+        ["name=to", "name"],
+        ["css=#autocomplete2", "css:finder"],
+        ["xpath=//input[@id='autocomplete2']", "xpath:attributes"],
+        ["xpath=//div[@id='onereturn']/div/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8a1e176-6b27-4256-9054-bafa1b494f9e",
+      "comment": "",
+      "command": "type",
+      "target": "id=autocomplete2",
+      "targets": [
+        ["id=autocomplete2", "id"],
+        ["name=to", "name"],
+        ["css=#autocomplete2", "css:finder"],
+        ["xpath=//input[@id='autocomplete2']", "xpath:attributes"],
+        ["xpath=//div[@id='onereturn']/div/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "yogya"
+    }, {
+      "id": "d55f6d43-1cc6-4fce-ac14-07d53bc076b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.autocomplete-result:nth-child(1) strong",
+      "targets": [
+        ["css=.autocomplete-result:nth-child(1) strong", "css:finder"],
+        ["xpath=//div[@id='onereturn']/div/div/div[2]/div/div/div/div/div/div/strong", "xpath:idRelative"],
+        ["xpath=//div/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Adi Sutjipto')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e943bfd4-f313-467b-b74b-440d60eafb0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#flights-search > .ladda-label",
+      "targets": [
+        ["css=#flights-search > .ladda-label", "css:finder"],
+        ["xpath=//button[@id='flights-search']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[4]/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66a2d6c8-5560-4bc4-9aae-3f8f6135ca55",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mix:nth-child(4) .theme-search-results-item-book strong",
+      "targets": [
+        ["css=.mix:nth-child(4) .theme-search-results-item-book strong", "css:finder"],
+        ["xpath=//section[@id='MixItUp3987A6']/ul/li[4]/div/form/div/div[2]/div/button/strong", "xpath:idRelative"],
+        ["xpath=//li[4]/div/form/div/div[2]/div/button/strong", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93bcd0cb-45ab-4f32-be8a-5f5330735ef5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mix:nth-child(4) .theme-search-results-item-book strong",
+      "targets": [
+        ["css=.mix:nth-child(4) .theme-search-results-item-book strong", "css:finder"],
+        ["xpath=//section[@id='MixItUp3987A6']/ul/li[4]/div/form/div/div[2]/div/button/strong", "xpath:idRelative"],
+        ["xpath=//li[4]/div/form/div/div[2]/div/button/strong", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2c9daa3-481d-4ee3-8b0b-9a04951d7d7b",
+      "comment": "",
+      "command": "click",
+      "target": "name=nationality",
+      "targets": [
+        ["name=nationality", "name"],
+        ["css=.form-select-sm", "css:finder"],
+        ["xpath=//select[@name='nationality']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a44563c-aa03-4786-85c1-1e865f1ac19f",
+      "comment": "",
+      "command": "select",
+      "target": "name=nationality",
+      "targets": [],
+      "value": "label=Indonesia"
+    }, {
+      "id": "be61b868-b2e9-4db6-89d3-26db2c88b91a",
+      "comment": "",
+      "command": "click",
+      "target": "name=firstname_1",
+      "targets": [
+        ["name=firstname_1", "name"],
+        ["css=.col-md-4 > .form-control", "css:finder"],
+        ["xpath=//input[@name='firstname_1']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b65693c-a2f8-495f-8ee5-5eb17d030c27",
+      "comment": "",
+      "command": "type",
+      "target": "name=firstname_1",
+      "targets": [
+        ["name=firstname_1", "name"],
+        ["css=.col-md-4 > .form-control", "css:finder"],
+        ["xpath=//input[@name='firstname_1']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "Sigit"
+    }, {
+      "id": "d91451c1-3ce3-42dc-9f82-b78c2340d21e",
+      "comment": "",
+      "command": "click",
+      "target": "name=lastname_1",
+      "targets": [
+        ["name=lastname_1", "name"],
+        ["css=.col-md-6 > .form-control", "css:finder"],
+        ["xpath=//input[@name='lastname_1']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d1ab6ae-33ca-44cc-9a59-6a2af0491dad",
+      "comment": "",
+      "command": "type",
+      "target": "name=lastname_1",
+      "targets": [
+        ["name=lastname_1", "name"],
+        ["css=.col-md-6 > .form-control", "css:finder"],
+        ["xpath=//input[@name='lastname_1']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Setiawan"
+    }, {
+      "id": "59d55e0a-d644-49d5-bfda-e6a51b833365",
+      "comment": "",
+      "command": "click",
+      "target": "name=nationality_1",
+      "targets": [
+        ["name=nationality_1", "name"],
+        ["css=.form-select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='nationality_1']", "xpath:attributes"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d4ac2c2-5244-41e6-b646-23ddaaba68a9",
+      "comment": "",
+      "command": "select",
+      "target": "name=nationality_1",
+      "targets": [],
+      "value": "label=Indonesia"
+    }, {
+      "id": "aa7bcd4d-f4ff-471b-9266-7fab096d950d",
+      "comment": "",
+      "command": "click",
+      "target": "name=dob_month_1",
+      "targets": [
+        ["name=dob_month_1", "name"],
+        ["css=.row:nth-child(2) .row .form-select", "css:finder"],
+        ["xpath=//select[@name='dob_month_1']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2337d447-1dca-48de-a89e-da55deb34e0f",
+      "comment": "",
+      "command": "select",
+      "target": "name=dob_month_1",
+      "targets": [],
+      "value": "label=06 June"
+    }, {
+      "id": "1f348d80-4316-49a3-88fd-6ecc2ba8e2bd",
+      "comment": "",
+      "command": "click",
+      "target": "name=dob_day_1",
+      "targets": [
+        ["name=dob_day_1", "name"],
+        ["css=.row:nth-child(2) > .col-md-6 .col-3 > .form-control", "css:finder"],
+        ["xpath=//input[@name='dob_day_1']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5df518d-0bae-4e51-a881-38c3ca574ba6",
+      "comment": "",
+      "command": "type",
+      "target": "name=dob_day_1",
+      "targets": [
+        ["name=dob_day_1", "name"],
+        ["css=.row:nth-child(2) > .col-md-6 .col-3 > .form-control", "css:finder"],
+        ["xpath=//input[@name='dob_day_1']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "e803b01e-02ff-445a-a0a6-48efa04798b9",
+      "comment": "",
+      "command": "click",
+      "target": "name=dob_day_1",
+      "targets": [
+        ["name=dob_day_1", "name"],
+        ["css=.row:nth-child(2) > .col-md-6 .col-3 > .form-control", "css:finder"],
+        ["xpath=//input[@name='dob_day_1']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c5937f2-2d1a-46e4-a867-f2cf6b713b10",
+      "comment": "",
+      "command": "type",
+      "target": "name=dob_day_1",
+      "targets": [
+        ["name=dob_day_1", "name"],
+        ["css=.row:nth-child(2) > .col-md-6 .col-3 > .form-control", "css:finder"],
+        ["xpath=//input[@name='dob_day_1']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "8dbfed59-f152-4a15-bcdb-f9c2588168f3",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=dob_day_1",
+      "targets": [
+        ["name=dob_day_1", "name"],
+        ["css=.row:nth-child(2) > .col-md-6 .col-3 > .form-control", "css:finder"],
+        ["xpath=//input[@name='dob_day_1']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47833a6c-aa92-4f84-acab-01029a0ded1b",
+      "comment": "",
+      "command": "type",
+      "target": "name=dob_day_1",
+      "targets": [
+        ["name=dob_day_1", "name"],
+        ["css=.row:nth-child(2) > .col-md-6 .col-3 > .form-control", "css:finder"],
+        ["xpath=//input[@name='dob_day_1']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "a42d34d6-43c8-4d16-8190-6045da34071b",
+      "comment": "",
+      "command": "click",
+      "target": "name=dob_day_1",
+      "targets": [
+        ["name=dob_day_1", "name"],
+        ["css=.row:nth-child(2) > .col-md-6 .col-3 > .form-control", "css:finder"],
+        ["xpath=//input[@name='dob_day_1']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f2b6370-e97b-4f85-b665-7748ca016aff",
+      "comment": "",
+      "command": "click",
+      "target": "name=dob_year_1",
+      "targets": [
+        ["name=dob_year_1", "name"],
+        ["css=.row:nth-child(2) > .col-md-6 .col-4 > .form-control", "css:finder"],
+        ["xpath=//input[@name='dob_year_1']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb90c2d8-c5bc-4f3d-b22f-cea923c31150",
+      "comment": "",
+      "command": "type",
+      "target": "name=dob_year_1",
+      "targets": [
+        ["name=dob_year_1", "name"],
+        ["css=.row:nth-child(2) > .col-md-6 .col-4 > .form-control", "css:finder"],
+        ["xpath=//input[@name='dob_year_1']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "1996"
+    }, {
+      "id": "2cc4d086-b136-40cc-ab47-29e5d22ea288",
+      "comment": "",
+      "command": "click",
+      "target": "name=passport_1",
+      "targets": [
+        ["name=passport_1", "name"],
+        ["css=.col-md-12 > .form-control", "css:finder"],
+        ["xpath=//input[@name='passport_1']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a36061f7-2c98-42a0-83e2-76caab019f74",
+      "comment": "",
+      "command": "type",
+      "target": "name=passport_1",
+      "targets": [
+        ["name=passport_1", "name"],
+        ["css=.col-md-12 > .form-control", "css:finder"],
+        ["xpath=//input[@name='passport_1']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "74897489499"
+    }, {
+      "id": "ca44e8e0-4dff-4a01-a79c-9e0590ff1a7a",
+      "comment": "",
+      "command": "click",
+      "target": "name=passport_issuance_month_1",
+      "targets": [
+        ["name=passport_issuance_month_1", "name"],
+        ["css=.mt-3:nth-child(2) > .row .form-select", "css:finder"],
+        ["xpath=//select[@name='passport_issuance_month_1']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a47eadee-0f29-475c-a466-bd25495a68fd",
+      "comment": "",
+      "command": "select",
+      "target": "name=passport_issuance_month_1",
+      "targets": [],
+      "value": "label=06 June"
+    }, {
+      "id": "3f4e2a85-8af8-4613-93fe-f2123c0ce99d",
+      "comment": "",
+      "command": "type",
+      "target": "name=passport_issuance_day_1",
+      "targets": [
+        ["name=passport_issuance_day_1", "name"],
+        ["css=.mt-3:nth-child(2) > .row > .col-3 > .form-control", "css:finder"],
+        ["xpath=//input[@name='passport_issuance_day_1']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "c9d68399-33f4-4986-bc97-9d85079c0efc",
+      "comment": "",
+      "command": "click",
+      "target": "name=passport_issuance_day_1",
+      "targets": [
+        ["name=passport_issuance_day_1", "name"],
+        ["css=.mt-3:nth-child(2) > .row > .col-3 > .form-control", "css:finder"],
+        ["xpath=//input[@name='passport_issuance_day_1']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc05be63-79f3-414a-b4ac-962ab2ee7ab4",
+      "comment": "",
+      "command": "type",
+      "target": "name=passport_issuance_day_1",
+      "targets": [
+        ["name=passport_issuance_day_1", "name"],
+        ["css=.mt-3:nth-child(2) > .row > .col-3 > .form-control", "css:finder"],
+        ["xpath=//input[@name='passport_issuance_day_1']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "08855900-15a6-4b2e-92cd-ae4cfa631fa7",
+      "comment": "",
+      "command": "type",
+      "target": "name=passport_issuance_day_1",
+      "targets": [
+        ["name=passport_issuance_day_1", "name"],
+        ["css=.mt-3:nth-child(2) > .row > .col-3 > .form-control", "css:finder"],
+        ["xpath=//input[@name='passport_issuance_day_1']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "14ef8b7f-3563-4d6b-8d8b-18a030597114",
+      "comment": "",
+      "command": "click",
+      "target": "name=passport_issuance_day_1",
+      "targets": [
+        ["name=passport_issuance_day_1", "name"],
+        ["css=.mt-3:nth-child(2) > .row > .col-3 > .form-control", "css:finder"],
+        ["xpath=//input[@name='passport_issuance_day_1']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e9114d0-3148-45fa-a347-ebd9047b2056",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=passport_issuance_day_1",
+      "targets": [
+        ["name=passport_issuance_day_1", "name"],
+        ["css=.mt-3:nth-child(2) > .row > .col-3 > .form-control", "css:finder"],
+        ["xpath=//input[@name='passport_issuance_day_1']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aaf98185-fabb-490c-9050-c6ab9bfb0e9b",
+      "comment": "",
+      "command": "type",
+      "target": "name=passport_issuance_day_1",
+      "targets": [
+        ["name=passport_issuance_day_1", "name"],
+        ["css=.mt-3:nth-child(2) > .row > .col-3 > .form-control", "css:finder"],
+        ["xpath=//input[@name='passport_issuance_day_1']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "4"
+    }, {
+      "id": "8ffd994b-ca15-4880-9261-74d8abc82805",
+      "comment": "",
+      "command": "click",
+      "target": "name=passport_issuance_day_1",
+      "targets": [
+        ["name=passport_issuance_day_1", "name"],
+        ["css=.mt-3:nth-child(2) > .row > .col-3 > .form-control", "css:finder"],
+        ["xpath=//input[@name='passport_issuance_day_1']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1f67682-91d4-42bd-b119-9e6f945c7356",
+      "comment": "",
+      "command": "click",
+      "target": "name=passport_issuance_year_1",
+      "targets": [
+        ["name=passport_issuance_year_1", "name"],
+        ["css=.mt-3:nth-child(2) > .row > .col-4 > .form-control", "css:finder"],
+        ["xpath=//input[@name='passport_issuance_year_1']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ade08886-2986-4126-8f75-2f8f19e30a28",
+      "comment": "",
+      "command": "type",
+      "target": "name=passport_issuance_year_1",
+      "targets": [
+        ["name=passport_issuance_year_1", "name"],
+        ["css=.mt-3:nth-child(2) > .row > .col-4 > .form-control", "css:finder"],
+        ["xpath=//input[@name='passport_issuance_year_1']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "2021"
+    }, {
+      "id": "c165a4a2-2321-411b-a302-dea8c4d7e14e",
+      "comment": "",
+      "command": "click",
+      "target": "name=passport_month_1",
+      "targets": [
+        ["name=passport_month_1", "name"],
+        ["css=.col-md-6:nth-child(3) .form-select", "css:finder"],
+        ["xpath=//select[@name='passport_month_1']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65d1c7b4-8b50-46bd-a5c9-d05b434383e6",
+      "comment": "",
+      "command": "select",
+      "target": "name=passport_month_1",
+      "targets": [],
+      "value": "label=06 June"
+    }, {
+      "id": "0c8f8ab2-e295-4988-a0ff-00e3d7340645",
+      "comment": "",
+      "command": "type",
+      "target": "name=passport_day_1",
+      "targets": [
+        ["name=passport_day_1", "name"],
+        ["css=.col-md-6:nth-child(3) .col-3 > .form-control", "css:finder"],
+        ["xpath=//input[@name='passport_day_1']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "d4dad43e-0df9-4938-b904-9d2d4312cd77",
+      "comment": "",
+      "command": "click",
+      "target": "name=passport_day_1",
+      "targets": [
+        ["name=passport_day_1", "name"],
+        ["css=.col-md-6:nth-child(3) .col-3 > .form-control", "css:finder"],
+        ["xpath=//input[@name='passport_day_1']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "238c8d01-a2aa-48ba-8f97-ccabab6e353c",
+      "comment": "",
+      "command": "type",
+      "target": "name=passport_day_1",
+      "targets": [
+        ["name=passport_day_1", "name"],
+        ["css=.col-md-6:nth-child(3) .col-3 > .form-control", "css:finder"],
+        ["xpath=//input[@name='passport_day_1']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "833f891a-dde3-4e47-a823-49a64f54618d",
+      "comment": "",
+      "command": "click",
+      "target": "name=passport_day_1",
+      "targets": [
+        ["name=passport_day_1", "name"],
+        ["css=.col-md-6:nth-child(3) .col-3 > .form-control", "css:finder"],
+        ["xpath=//input[@name='passport_day_1']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c8dde9b-aca3-40a4-9a7d-c1840d0b8603",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=passport_day_1",
+      "targets": [
+        ["name=passport_day_1", "name"],
+        ["css=.col-md-6:nth-child(3) .col-3 > .form-control", "css:finder"],
+        ["xpath=//input[@name='passport_day_1']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cf5ed34-c476-46dc-b4fb-b54e3899eeae",
+      "comment": "",
+      "command": "type",
+      "target": "name=passport_day_1",
+      "targets": [
+        ["name=passport_day_1", "name"],
+        ["css=.col-md-6:nth-child(3) .col-3 > .form-control", "css:finder"],
+        ["xpath=//input[@name='passport_day_1']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "f233d12c-4a74-4851-acb0-1d2c1fdf6d82",
+      "comment": "",
+      "command": "click",
+      "target": "name=passport_day_1",
+      "targets": [
+        ["name=passport_day_1", "name"],
+        ["css=.col-md-6:nth-child(3) .col-3 > .form-control", "css:finder"],
+        ["xpath=//input[@name='passport_day_1']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "279c58ed-7767-4ab8-b3bf-6bce8a3f4342",
+      "comment": "",
+      "command": "type",
+      "target": "name=passport_day_1",
+      "targets": [
+        ["name=passport_day_1", "name"],
+        ["css=.col-md-6:nth-child(3) .col-3 > .form-control", "css:finder"],
+        ["xpath=//input[@name='passport_day_1']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "4"
+    }, {
+      "id": "8016d898-e52b-4674-aed5-4974132d2cd0",
+      "comment": "",
+      "command": "click",
+      "target": "name=passport_day_1",
+      "targets": [
+        ["name=passport_day_1", "name"],
+        ["css=.col-md-6:nth-child(3) .col-3 > .form-control", "css:finder"],
+        ["xpath=//input[@name='passport_day_1']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79265dfe-8d96-41a6-83c9-e163306db3a5",
+      "comment": "",
+      "command": "click",
+      "target": "name=passport_year_1",
+      "targets": [
+        ["name=passport_year_1", "name"],
+        ["css=.col-md-6:nth-child(3) .col-4 > .form-control", "css:finder"],
+        ["xpath=//input[@name='passport_year_1']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6143fd7f-831a-4dfa-9670-23305ef83d01",
+      "comment": "",
+      "command": "type",
+      "target": "name=passport_year_1",
+      "targets": [
+        ["name=passport_year_1", "name"],
+        ["css=.col-md-6:nth-child(3) .col-4 > .form-control", "css:finder"],
+        ["xpath=//input[@name='passport_year_1']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "2022"
+    }, {
+      "id": "3e32199e-0f0b-42fb-9b78-7a606ad4cf75",
+      "comment": "",
+      "command": "click",
+      "target": "id=gateway_paypal",
+      "targets": [
+        ["id=gateway_paypal", "id"],
+        ["css=#gateway_paypal", "css:finder"],
+        ["xpath=//input[@id='gateway_paypal']", "xpath:attributes"],
+        ["xpath=//ul[@id='myTab']/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7c0dbfc-b1f0-4ca4-8f9a-5a115309a16b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.custom-checkbox > label",
+      "targets": [
+        ["css=.custom-checkbox > label", "css:finder"],
+        ["xpath=//div[4]/div/div/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8243d9f-6a13-482a-84c8-cb8e9ccb20af",
+      "comment": "",
+      "command": "click",
+      "target": "id=booking",
+      "targets": [
+        ["id=booking", "id"],
+        ["css=#booking", "css:finder"],
+        ["xpath=//button[@id='booking']", "xpath:attributes"],
+        ["xpath=//div[5]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Confirm Booking')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d088cca3-37b6-458b-a801-aeccf29f6bb4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6cdccf1b-0a52-4559-9efa-2342d48cf07b"]
+  }],
+  "urls": ["https://www.phptravels.net/"],
+  "plugins": []
+}
